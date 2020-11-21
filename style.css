@@ -222,9 +222,21 @@ header .content img{
 	width: 100%;
 	text-align: center;
 }
+/*cho img co with và height thì sẽ co giãn được không bị vỡ*/
+#main_ourwork #main_ourwork_main .main_ourwork_1 a > img{
+	width: 240px;
+	height: 200px;
+	margin: 0 auto;
+	border: 6px solid transparent;
+	object-fit: cover;
+	transition: border ease-out 0.2s;
+}
+#main_ourwork #main_ourwork_main .main_ourwork_1 a > img:hover{
+	border: 2px solid transparent;
+	/*object-fit: fill;*/
+}
 #main_ourwork div div h4 a{
 	color: #010101;
-
 }
 #main_ourwork div div h4 a:hover{
 	color: #ed6060;
@@ -247,11 +259,22 @@ header .content img{
 }
 #ourteam div div a{
 	display: block;
-    width: 169px;
+	width: 169px;
     text-align: center;
     margin-top:45px;
     margin-bottom: 14px;
     color: black;
+}
+#ourteam div div > a > img{
+	width: 169px;
+	height: 169px;
+	border: 6px solid transparent;
+	border-radius: 50%;
+	transition: border ease-in 0.2s;
+}
+#ourteam div div > a > img:hover{
+	border: 2px solid transparent;
+	-webkit-transition: height 2s;
 }
 #ourteam div div a:hover{
 	color: #ed6060;
