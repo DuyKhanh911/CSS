@@ -1,0 +1,775 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+/*do không tìm được link font Myriad */
+/*nên e chọn font mặc định sans-serif*/
+/*Public class*/
+/*Main*/
+#main{
+	max-width: 100%;
+	min-height: 4890px;
+	background-color: #ffffff;
+}
+#main .mywork_2{
+	min-height: 600px;
+}
+#main .mywork_2 div{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#main .mywork_2 div div{
+	max-width: 30%;
+}
+.text{
+	max-width: 714px;
+	line-height: 24px;
+	margin: 0px auto;
+	margin-top: 17px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.textmain{
+	margin-bottom: 87px;
+	max-width: 200px;
+	line-height: 24px;
+	text-align: left;
+	margin-left: 65px;
+}
+.texth4{
+	display: block;
+	text-align: left;
+	margin-right: 65px;
+	color: black;
+}
+.texth4:hover{
+	color: #ed6060;
+}
+.mywork_2{
+	max-width: 80%;
+	margin: 0 auto;
+	min-height: 834px;
+}
+.mywork_2 h3{
+	margin-top: 115px;
+	text-align: center;
+}
+.one{
+    position: absolute;
+    left: 15px;
+    bottom: 141px;
+}
+.two{
+	position: absolute;
+    left: 44px;
+    bottom: 143px;
+    color: white;
+}
+.three{
+	position: absolute;
+    right: 55px;
+    bottom: 143px;
+    color: white;
+}
+.for{
+	position: absolute;
+    right: 30px;
+    bottom: 140px;
+    color: white;
+}
+/*Private class*/
+/*header*/
+header{
+	max-width: 100%;
+	min-height: 847px;
+	background-color: #fcdb00;
+}
+.mywork .flex{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 230px;
+	margin-right: 225px;
+
+}
+.mywork .flex ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+.mywork .flex .logo{
+	padding-top: 63px;
+}
+.mywork .flex .topmenu{
+	padding-top:79px;
+}
+header .content{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 253px;
+	color: red;
+	text-align: center;
+}
+header .content h1{
+	color: #222222;
+	line-height: 18px;
+	padding-bottom: 27px;
+}
+header .content h6{
+	text-align: center;
+	line-height: 18px;
+	color: #222222;
+	width: 470px;
+}
+
+header .content a{
+	display: block;
+	border: 2px solid black;
+	width: 256px;
+	height: 55px;
+	line-height: 55px;
+	margin:0px auto;
+	margin-top: 40px;
+	color: black;
+	background-color: #fcdb00;
+	
+}
+header .content a:hover{
+	font-size: 20px;
+	background-color: #e9cc09;
+}
+header .content img{
+	margin-top: 182px;
+}
+/*main*/
+#cricle_main{
+	min-height: 760px;
+}
+#cricle_main div{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+}
+#cricle_main div div{
+	width: 127px;
+
+}
+#cricle_main div div h4{
+	margin-top: 24px;
+	margin-bottom: 20px
+}
+#cricle_main div div h4 a{
+	color: black;
+}
+#cricle_main div div h4 a:hover{
+	color: #ed6060;
+}
+#cricle_main div div h6{
+	text-align: center;
+	margin-bottom: 40px;
+}
+#cricle_main div div h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#cricle_main div div .hr{
+	display: block;
+	text-align: center;
+	width: 74px;
+	margin-bottom: 12px;
+}
+#cricle_main div div span{
+	display: block;
+	text-align: center;
+	width: 100px;
+	margin-bottom:30px;
+}
+#cricle_main div div .link{
+	display: block;
+	border: 2px solid black;
+	font-size: 11pt;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 5px;
+	color: black;
+	background-color: white;
+	transition: color ease-out 0.3s;
+}
+#cricle_main div div .link:hover{
+	color: #ed6060;
+	background-color: #d7d1d1;
+}
+/*ourwork*/
+#main_ourwork{
+	min-height: 1058px;
+}
+#main_ourwork div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#main_ourwork div div{
+	width: 25%;
+	position: relative;
+}
+#main_ourwork div div h4{
+	margin-top: 22px;
+	margin-bottom: 14px;
+	width: 100%;
+	text-align: center;
+}
+#main_ourwork div div h4 a{
+	color: #010101;
+
+}
+#main_ourwork div div h4 a:hover{
+	color: #ed6060;
+}
+#main_ourwork div div h6{
+	margin-bottom: 60px;
+}
+
+/*ourteam*/
+#ourteam{
+	min-height: 648px;
+}
+#ourteam div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#ourteam div div{
+	width: 25%;
+}
+#ourteam div div a{
+	display: block;
+    width: 169px;
+    text-align: center;
+    margin-top:45px;
+    margin-bottom: 14px;
+    color: black;
+}
+#ourteam div div a:hover{
+	color: #ed6060;
+}
+#ourteam div div span{
+	margin-bottom: 13px;
+}
+#ourteam div div h6{
+	line-height: 18px;
+	text-align: center;
+}
+#ourteam div div ul{
+	display: flex;
+	margin: 0 30px
+	margin-right:20px;
+	justify-content: center;
+}
+#ourteam div div ul li a{
+	display: block;
+	width: 20px;
+	padding: 0 15px;
+}
+#terminal{
+	position: relative;
+}
+
+#terminal ul{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 12%;
+}
+#terminal ul li{
+	width: 200px;
+}
+#terminal ul li img{
+	display: block;
+	margin-bottom: 25px;
+	width: 43px;
+	height: 42px;
+}
+#terminal ul li .span_ter{
+	display: block;
+	padding-left: 15px;
+}
+#terminal_2{
+	width: 315px;
+	margin:0 auto;
+	margin-top: 76px;
+	
+}
+#terminal_2 img{
+	display: block;
+	margin-top: 76px;
+	margin: 0 auto;
+
+
+}
+#terminal_2 .terminal_2_a{
+	display: block;
+	width: 190px;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: black;
+} 
+#terminal_2 .terminal_2_a:hover{
+	color: #ed6060;
+}
+#terminal_2 > span{
+    display: block;
+    margin-left: 4px;
+}
+#terminal_2 .terminal_2_img{
+	display: block;
+	position: absolute;
+	left: 260px;
+    bottom: 93px;
+}
+#terminal_2 .terminal_2_img_right{
+	display: block;
+	position: absolute;
+	right: 280px;
+    bottom: 50px;
+}
+#keep div{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0px;
+}
+#keep div div{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+	margin-top: 50px;
+}
+#keep div div .keep_a{
+	display: block;
+	margin: 0 50%;
+	margin-bottom: 27px;
+	width: 100%;
+	color:black;
+}
+#keep div div a > img{
+	display: block;
+	width: 25px;
+	height: 30px;
+}
+#keep div div span{
+	display: block;
+	text-align: center;
+	width: 155px;
+	margin-bottom: 31px;
+}
+#keep span > a{
+	color: black;
+}
+#keep span > a:hover{
+	color: #ed6060;
+}
+#keep .keep_h4_a{
+	display: block;
+	width: 300px;
+	text-align: center;
+	height: 15px;
+	margin-bottom:0px;
+	color: black;
+}
+#keep form{
+	margin: 0 auto;
+}
+#keep form input{
+	display: block;
+	width: 478px;
+	margin:14px auto;
+	height: 53px;
+	padding-left: 18px;
+	border: 1px solid black;
+}
+#keep #textar{
+	height: 204px;
+}
+#keep button{
+	display: block;
+	height: 50px;
+	width: 168px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 78px;
+	background-color: #000000;
+	color: white;
+}
+#keep button:hover{
+	background-color: gray;
+}
+/*footer*/
+footer{
+	background-color: black;
+	color: white;
+}
+footer .mywork3 > h3{
+	padding-top: 96px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+footer .mywork3 > form{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+
+}
+footer .mywork3 > form input{
+	width: 600px;
+	height: 53px;
+	padding-left: 18px;
+	outline: none;
+}
+footer .mywork3 > form button{
+	width: 133px;
+	height: 53px;
+	margin-left: 5px;
+	margin-bottom: 110px;
+	color: #010101;
+	background-color: white;
+	border: 2px solid transparent;
+}
+footer .mywork3 > form button:hover{
+	background-color: #ed6060;
+	font-size: 15px;
+	outline: none;
+}
+footer .mywork3 div{
+	display: flex;
+	justify-content: space-between;
+	margin:0 240px;
+	padding-bottom: 194px;
+}
+footer .mywork3 div ul li a{
+	display: block;
+	padding: 2px 0px;
+	color: white;
+	transition: color ease-out 0.3s;
+}
+footer .mywork3 div ul li a:hover{
+	color: #ed6060;
+}
+/*///*/
+@media screen and (max-width: 576px) {
+	header{
+	max-width: 100%;
+	min-height:500px;
+	background-color: #fcdb00;
+	}
+	.one{
+		display: none;
+	}
+	.two{
+		display: none;
+	}
+	.three{
+		display: none;
+	}
+	.for{
+		display: none;
+	}
+	.mywork .flex{
+	justify-content: space-between;
+	margin: 0 15px;
+	}
+	header .content {
+    width: 400px;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 80px;
+	}
+	header .content h6 {
+    width: 350px;
+    font-size: 10px;
+	}
+	header .content a {
+    border: 1px solid black;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px auto;
+    margin-top: 30px;
+	}
+	header .content a:hover {
+    font-size: 13px;
+	}
+	header .content img {
+    margin-top: 80px;
+	}
+	.mywork_2 h3 {
+    margin-top: 60px;
+	}
+	.text {
+    max-width: 300px;
+	}
+	#main .mywork_2 div{
+	flex-wrap: wrap;
+	}
+	#main .mywork_2 div div {
+    max-width: 33%;
+	}
+	.texth4 {
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top:10px;
+	}
+	.textmain {
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	}
+	#cricle_main div div .link {
+    font-size: 8pt;
+    }
+    #main {
+    min-height: 4650px;
+	}
+	#main .mywork_2 div {
+    display: flex;
+    flex-wrap: wrap;
+	}
+	#main .mywork_2 div div {
+    width: 100px;
+	}
+	#main_ourwork div div a > img{
+		display: block;
+		height: 80px;
+		width: 100px;
+	}
+	.mywork_2 h3 {
+    margin-top: 30px;
+	}
+	#ourteam div div > a > img{
+		display: block;
+		width: 80px;
+		height: 80px;
+	}
+	#terminal ul {
+    display: flex;
+    flex-wrap: nowrap;
+	}
+	#terminal ul li img {
+		width: 30px;
+		height: 26px;
+	}
+	#terminal_2 img {
+    margin-top: 0px;
+    width: 116px;
+	height: 116px;
+	}
+	#terminal_2 .terminal_2_img {
+    display: none;
+	}
+	#terminal_2 .terminal_2_img_right {
+		display: none;
+	}
+	#keep span > a {
+	display: block;
+    font-size: 10px;
+	}
+	#keep form input {
+    width: 360px;
+    height: 40px;
+	}
+	#keep #textar {
+    height: 80px;
+	}
+	#keep button {
+    height: 40px;
+    width: 130px;
+    margin-bottom: 0px;
+	}
+	footer .mywork3 > form input {
+    width: 250px;
+    height: 35px;
+	}
+	footer .mywork3 > form button {
+    width: 95px;
+    height: 35px;
+    margin-bottom: 50px;
+	}
+	footer .mywork3 div {
+    display: flex;
+    padding-bottom: 30px;
+    padding: 0 5px;
+    margin: 0 10px;
+    padding-bottom: 50px;
+	}
+	footer .mywork3 div ul li a{
+		display: block;
+		font-size: 11px;
+	}
+}
+@media screen and (min-width:577px) and (max-width: 1100px){
+	header{
+	max-width: 100%;
+	min-height:500px;
+	background-color: #fcdb00;
+	}
+	.one{
+		display: none;
+	}
+	.two{
+		display: none;
+	}
+	.three{
+		display: none;
+	}
+	.for{
+		display: none;
+	}
+	.mywork .flex{
+	justify-content: space-between;
+	margin: 0 20px;
+	}
+	header .content {
+    width: 400px;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 80px;
+	}
+	header .content h6 {
+    width: 350px;
+    font-size: 10px;
+	}
+	header .content a {
+    border: 1px solid black;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px auto;
+    margin-top: 30px;
+	}
+	header .content a:hover {
+    font-size: 13px;
+	}
+	header .content img {
+    margin-top: 80px;
+	}
+	.mywork_2 h3 {
+    margin-top: 60px;
+	}
+	.text {
+    max-width: 300px;
+	}
+	#main .mywork_2 div{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#main .mywork_2 div .tinyone_1
+	{
+		width: 300px;
+	}
+
+	#main .mywork_2 div div {
+    max-width: 33%;
+	}
+	.texth4 {
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top:10px;
+	}
+	.textmain {
+	margin-left: 50px;
+	}
+	#cricle_main div div .link {
+    font-size: 8pt;
+    }
+    #main {
+    min-height: 4160px;
+	}
+	#main .mywork_2 div {
+    display: flex;
+    flex-wrap: wrap;
+	}
+	#main .mywork_2 div div {
+    width: 100px;
+	}
+	#main_ourwork div div a > img{
+		display: block;
+		height: 100px;
+		width: 160px;
+	}
+	#main_ourwork #main_ourwork_main{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.main_ourwork_1{
+		width: 200px !important;
+	}
+	.mywork_2 h3 {
+    margin-top: 30px;
+	}
+	#ourteam div div > a > img{
+		display: block;
+		width: 80px;
+		height: 80px;
+	}
+	#terminal ul {
+    display: flex;
+    flex-wrap: nowrap;
+	}
+	#terminal ul li img {
+		width: 30px;
+		height: 26px;
+	}
+	#terminal_2 img {
+    margin-top: 0px;
+    width: 116px;
+	height: 116px;
+	}
+	#terminal_2 .terminal_2_img {
+    display: none;
+	}
+	#terminal_2 .terminal_2_img_right {
+		display: none;
+	}
+	#keep span > a {
+	display: block;
+    font-size: 15px;
+	}
+	#keep form input {
+    width: 360px;
+    height: 40px;
+	}
+	#keep #textar {
+    height: 80px;
+	}
+	#keep button {
+    height: 40px;
+    width: 130px;
+    margin-bottom: 0px;
+	}
+	footer .mywork3 > form input {
+    width: 250px;
+    height: 35px;
+	}
+	footer .mywork3 > form button {
+    width: 95px;
+    height: 35px;
+    margin-bottom: 50px;
+	}
+	footer .mywork3 div {
+    display: flex;
+    padding-bottom: 30px;
+    padding: 0 5px;
+    margin: 0 90px;
+	}
+	footer .mywork3 div ul li a{
+		display: block;
+		font-size: 11px;
+	}
+}
